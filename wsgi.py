@@ -91,8 +91,8 @@ def create_app():
 
     app.register_blueprint(feedbox_bp)
 
-    create_app()
     return app
+create_app()
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", debug=True,port =5001)
